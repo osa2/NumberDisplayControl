@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_name"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/textView02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number"
+        android:textSize="32sp" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <View
+            android:id="@+id/horz_center"
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@id/horz_center"
+            android:text="@string/dial_disclose" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/horz_center"
+            android:layout_alignParentRight="true"
+            android:text="@string/dial_close" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView01"
+        android:layout_width="fill_parent"
+        android:layout_height="354dp" >
+
+    </ListView>
+
+</LinearLayout>
