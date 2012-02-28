@@ -3,7 +3,7 @@
 
     <string name="app_name">Number Display Control</string>
     <string name="phone_name">(none)</string>
-    <string name="phone_number">000-0000-0000</string>
+    <string name="phone_number"></string>
     <string name="dial_disclose">通知ダイアル</string>
     <string name="dial_close">非通知ダイアル</string>
         
